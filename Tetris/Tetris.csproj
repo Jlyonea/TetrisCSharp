@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Background.png" />
+    <None Remove="Assets\Block-Empty.png" />
+    <None Remove="Assets\Block-I.png" />
+    <None Remove="Assets\Block-J.png" />
+    <None Remove="Assets\Block-L.png" />
+    <None Remove="Assets\Block-O.png" />
+    <None Remove="Assets\Block-S.png" />
+    <None Remove="Assets\Block-T.png" />
+    <None Remove="Assets\Block-Z.png" />
+    <None Remove="Assets\TileBlue.png" />
+    <None Remove="Assets\TileCyan.png" />
+    <None Remove="Assets\TileEmpty.png" />
+    <None Remove="Assets\TileGreen.png" />
+    <None Remove="Assets\TileOrange.png" />
+    <None Remove="Assets\TilePurple.png" />
+    <None Remove="Assets\TileRed.png" />
+    <None Remove="Assets\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Background.png" />
+    <Content Include="Assets\Block-Empty.png" />
+    <Content Include="Assets\Block-I.png" />
+    <Content Include="Assets\Block-J.png" />
+    <Content Include="Assets\Block-L.png" />
+    <Content Include="Assets\Block-O.png" />
+    <Content Include="Assets\Block-S.png" />
+    <Content Include="Assets\Block-T.png" />
+    <Content Include="Assets\Block-Z.png" />
+    <Content Include="Assets\TileBlue.png" />
+    <Content Include="Assets\TileCyan.png" />
+    <Content Include="Assets\TileEmpty.png" />
+    <Content Include="Assets\TileGreen.png" />
+    <Content Include="Assets\TileOrange.png" />
+    <Content Include="Assets\TilePurple.png" />
+    <Content Include="Assets\TileRed.png" />
+    <Content Include="Assets\TileYellow.png" />
+  </ItemGroup>
+
+</Project>
